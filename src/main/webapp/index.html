@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form action="respuesta.jsp" method="GET">
+		<input type="text" name="num_a" id="num_a" step="0.1" placeholder="Ingrese un numero A"/>
+		<input type="text" name="num_b" id="num_b" step="0.1"/ placeholder="Ingrese un numero B">
+		<select name="resultado" id="resultado">  
+		     <option value="1">Sumar</option> 
+		     <option value="2">Resta</option> 
+		     <option value="3">Multiplicar</option> 
+		     <option value="4">Dividir</option> 
+	 	</select>  
+		<button type="submit">Calcular</button>
+	</form>
+</body>
+</html>
